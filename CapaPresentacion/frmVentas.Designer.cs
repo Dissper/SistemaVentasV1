@@ -50,6 +50,7 @@ namespace CapaPresentacion
             this.Controls.Add(this.label1);
             this.Name = "frmVentas";
             this.Text = "frmVentas";
+            this.Load += new System.EventHandler(this.frmVentas_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -24,8 +24,8 @@ namespace CapaPresentacion
         #region Código generado por el Diseñador de Windows Forms
 
         /// <summary>
-        /// Método necesario para admitir el Diseñador. No se puede modificar
-        /// el contenido de este método con el editor de código.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -54,18 +54,11 @@ namespace CapaPresentacion
             // 
             // menu
             // 
-            this.menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuUsuarios,
-            this.menuAdmin,
-            this.menuVentas,
-            this.menuCompras,
-            this.menuClientes,
-            this.menuProveedores,
-            this.menuReportes,
-            this.menuAcercaDe});
+            this.menu.BackColor = System.Drawing.Color.White;
+            this.menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {this.menuUsuarios, this.menuAdmin, this.menuVentas, this.menuCompras, this.menuClientes, this.menuProveedores, this.menuReportes, this.menuAcercaDe});
             this.menu.Location = new System.Drawing.Point(0, 65);
             this.menu.Name = "menu";
-            this.menu.Size = new System.Drawing.Size(876, 73);
+            this.menu.Size = new System.Drawing.Size(1169, 73);
             this.menu.TabIndex = 0;
             this.menu.Text = "menuStrip1";
             // 
@@ -86,9 +79,7 @@ namespace CapaPresentacion
             // menuAdmin
             // 
             this.menuAdmin.AutoSize = false;
-            this.menuAdmin.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.subMenuCategoria,
-            this.subMenuProducto});
+            this.menuAdmin.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {this.subMenuCategoria, this.subMenuProducto});
             this.menuAdmin.IconChar = FontAwesome.Sharp.IconChar.Tools;
             this.menuAdmin.IconColor = System.Drawing.Color.Black;
             this.menuAdmin.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -122,9 +113,7 @@ namespace CapaPresentacion
             // menuVentas
             // 
             this.menuVentas.AutoSize = false;
-            this.menuVentas.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.subMenuRegistrarVenta,
-            this.subMenuVerDetalleVenta});
+            this.menuVentas.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {this.subMenuRegistrarVenta, this.subMenuVerDetalleVenta});
             this.menuVentas.IconChar = FontAwesome.Sharp.IconChar.Tags;
             this.menuVentas.IconColor = System.Drawing.Color.Black;
             this.menuVentas.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -141,7 +130,7 @@ namespace CapaPresentacion
             this.subMenuRegistrarVenta.IconColor = System.Drawing.Color.Black;
             this.subMenuRegistrarVenta.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subMenuRegistrarVenta.Name = "subMenuRegistrarVenta";
-            this.subMenuRegistrarVenta.Size = new System.Drawing.Size(180, 22);
+            this.subMenuRegistrarVenta.Size = new System.Drawing.Size(128, 22);
             this.subMenuRegistrarVenta.Text = "Registrar";
             this.subMenuRegistrarVenta.Click += new System.EventHandler(this.subMenuRegistrarVenta_Click);
             // 
@@ -151,16 +140,14 @@ namespace CapaPresentacion
             this.subMenuVerDetalleVenta.IconColor = System.Drawing.Color.Black;
             this.subMenuVerDetalleVenta.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subMenuVerDetalleVenta.Name = "subMenuVerDetalleVenta";
-            this.subMenuVerDetalleVenta.Size = new System.Drawing.Size(180, 22);
+            this.subMenuVerDetalleVenta.Size = new System.Drawing.Size(128, 22);
             this.subMenuVerDetalleVenta.Text = "Ver detalle";
             this.subMenuVerDetalleVenta.Click += new System.EventHandler(this.subMenuVerDetalleVenta_Click);
             // 
             // menuCompras
             // 
             this.menuCompras.AutoSize = false;
-            this.menuCompras.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.subMenuRegistrarCompra,
-            this.subMenuVerDetalleCompra});
+            this.menuCompras.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {this.subMenuRegistrarCompra, this.subMenuVerDetalleCompra});
             this.menuCompras.IconChar = FontAwesome.Sharp.IconChar.DollyFlatbed;
             this.menuCompras.IconColor = System.Drawing.Color.Black;
             this.menuCompras.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -253,7 +240,7 @@ namespace CapaPresentacion
             this.menuTitulo.Location = new System.Drawing.Point(0, 0);
             this.menuTitulo.Name = "menuTitulo";
             this.menuTitulo.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.menuTitulo.Size = new System.Drawing.Size(876, 65);
+            this.menuTitulo.Size = new System.Drawing.Size(1169, 65);
             this.menuTitulo.TabIndex = 1;
             this.menuTitulo.Text = "menuStrip2";
             // 
@@ -261,7 +248,7 @@ namespace CapaPresentacion
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(12, 18);
             this.label1.Name = "label1";
@@ -274,16 +261,16 @@ namespace CapaPresentacion
             this.contenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.contenedor.Location = new System.Drawing.Point(0, 138);
             this.contenedor.Name = "contenedor";
-            this.contenedor.Size = new System.Drawing.Size(876, 451);
+            this.contenedor.Size = new System.Drawing.Size(1169, 510);
             this.contenedor.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(738, 18);
+            this.label2.Location = new System.Drawing.Point(828, 18);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 15);
             this.label2.TabIndex = 4;
@@ -293,9 +280,9 @@ namespace CapaPresentacion
             // 
             this.lblUsuario.AutoSize = true;
             this.lblUsuario.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblUsuario.ForeColor = System.Drawing.Color.White;
-            this.lblUsuario.Location = new System.Drawing.Point(797, 18);
+            this.lblUsuario.Location = new System.Drawing.Point(887, 18);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(63, 15);
             this.lblUsuario.TabIndex = 5;
@@ -305,7 +292,7 @@ namespace CapaPresentacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(876, 589);
+            this.ClientSize = new System.Drawing.Size(1169, 648);
             this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.contenedor);
@@ -321,7 +308,6 @@ namespace CapaPresentacion
             this.menu.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion
